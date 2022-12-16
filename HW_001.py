@@ -11,7 +11,7 @@ num = int(input())
 
 if num == 6 or num == 7:
     print('Этот день выходной')
-elif(0 < num <= 8):
+elif(0 < num < 6):
     print('Этот день рабочий')
 else:
     print('Ошибка! Введите число от 1 до 7.')
