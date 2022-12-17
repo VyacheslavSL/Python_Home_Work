@@ -6,9 +6,9 @@
 
 
 print('Введите координаты точки А')
-x_A, y_A = float(input()), int(input())
+x_A, y_A = float(input()), float(input())
 print('Введите координаты точки B')
-x_B, y_B = float(input()), int(input())
+x_B, y_B = float(input()), float(input())
 
 from math import sqrt
 
